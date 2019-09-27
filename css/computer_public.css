@@ -1,0 +1,17 @@
+@charset "utf-8";
+/* CSS Document 公用CSS */
+
+*{font-family: "微软雅黑";}
+
+html,body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6,p,a,img, pre, code, form, fieldset, legend, input, textarea, blockquote, th, td {
+    margin:0;
+    padding:0;
+    
+}
+a{text-decoration: none;}
+
+table {border-collapse:collapse;border-spacing:0;}
+
+img {border: 0;margin:0; }
+
+li{list-style:none;}

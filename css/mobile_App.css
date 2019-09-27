@@ -1,0 +1,152 @@
+.clearfix:after {content:"\200B"; display:block; height:0; clear:both; }
+.clearfix { *zoom:1; }
+.fl{float: left}
+.fr{float: right}
+h1,h2,h3,h4,h5,h6,strong{font-weight:normal;}
+.bg-gray{
+	background-color:#313435;
+}
+.bg-white{
+	background-color:#fff;
+}
+.banner{
+	max-width: 1920px;
+	height: 680px;
+	background: url("../img/img/banner_a.jpg")/*tpa=http://yuxiit.lingnan.ren/img/img/banner_a.jpg*/ 50% 50%;
+}
+.middle{
+	width: 1200px;
+	margin:0 auto;
+}
+.banner-txt{
+	position: relative;
+	top:90px;
+}
+.banner-txt .txt{
+	font-size:50px;
+}
+.banner-txt .txt1{
+	padding-top:210px;
+	color:#95c1ff
+}
+.banner-txt .txt2{
+	color:#ffffff;
+}
+
+.content1_next{
+	padding-top:36px;
+	padding-bottom: 70px;
+}
+.content1_next .title{
+	height: 114px;
+	line-height: 114px;
+	text-align: center;
+	font-size:36px;
+	color:#282828;
+	border-bottom: 1px solid #282828;
+}
+.content1_center li{
+	width: 300px;
+	height: 300px;
+	float: left;
+	padding-top:54px;
+}
+.content1_center h2{
+	padding-top:40px;
+	padding-bottom:20px;
+	font-size:24px;
+	color:#1b1b1b;
+	text-align: center;
+}
+.content1_center p{
+	font-size:16px;
+	line-height: 28px;
+	color:#8c8c8c;
+	padding:0 4%;
+}
+.oImg{
+	display: block;
+	width: 100px;
+	height: 100px;
+	margin:0 auto;
+	border-radius: 50%;
+	background:url("../img/img/iocn.png")/*tpa=http://yuxiit.lingnan.ren/img/img/iocn.png*/;
+}
+.oImg1{background-position:0 0;}
+.oImg2{background-position:-105px 0;}
+.oImg3{background-position:-210px 0;}
+.oImg4{background-position:-315px 0;}
+.oImg5{background-position:-420px 0;}
+.oImg6{background-position:-525px 0;}
+.oImg7{background-position:-630px 0;}
+.oImg8{background-position:-735px 0;}
+
+.content2{
+	height: 492px
+}
+.content2_next img{
+	position: relative;
+	top:-54px;
+	width:1200px;
+	height:682px;
+}
+
+.content3{
+	height: 500px;
+}
+.content3_next .title{
+	font-size:36px;
+	color:#282828;
+	padding-top: 144px;
+	text-align: center;
+}
+.content3_next img{
+	display: block;
+	width: 1180px;
+	height: 72px;
+	margin:0 auto;
+	padding-top: 80px;
+}
+.content3_next li{
+	float: left;
+	padding-top: 10px;
+	width: 200px;
+	text-align: center;
+}
+.content4{
+	max-width: 1920px;
+	height: 400px;
+	background: url("../img/img/banner_c.jpg")/*tpa=http://yuxiit.lingnan.ren/img/img/banner_c.jpg*/ 50% 50%;
+}
+.content4_next img{
+	display:block;
+	margin:0 auto;
+	width: 1044px;
+	height: 217px;
+	padding-top:94px;
+}
+.content5{
+	height:428px;
+}
+.content5_next h2{
+	padding-top:90px;
+	padding-bottom: 60px;
+	font-size:36px;
+	color:#282828;
+	text-align: center;
+}
+.content5_next img{
+	display: block;
+	width: 1076px;
+	height:130px;
+	margin:0 auto;
+}
+.content5_next li{
+	width: 300px;
+	float: left;
+	padding-top:16px;
+	text-align: center;
+	font-size:18px;
+	color:#414141;
+}
+

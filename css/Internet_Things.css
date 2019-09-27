@@ -1,0 +1,1070 @@
+.Internet_Things .item1{
+	color: #fff;
+	width: 100%;
+	height: 560px;
+	background:  url("../img/internet_thinks/banner.png")/*tpa=http://yuxiit.lingnan.ren/img/internet_thinks/banner.png*/ no-repeat center center #000;
+	background-size: auto 100%;
+	margin-top: 90px;
+	text-align: center;
+	overflow: hidden;
+}
+.Internet_Things .item1 h2{
+	font-size: 46px;
+	margin: 200px 0 60px 0;
+}
+.Internet_Things .item1 h4{
+	font-size: 30px;
+	padding: 0 10%;
+	line-height: 1.5;
+}
+/**/
+.Internet_Things .item2{
+	padding:  80px 0;
+}
+.item2 h2{
+	color: #333;
+	padding: 0;
+	font-size: 32px;
+	font-weight: 700;
+	margin: 110px 0 60px 0;
+}
+.Internet_Things .item2 ul{
+	margin: 0;
+	padding: 0 0 0 20px;
+	list-style-type: disc !important;
+}
+.Internet_Things .item2 ul li{
+margin: 0;
+padding: 0;
+color: #999;
+font-size: 18px;
+margin-bottom: 20px;
+}
+/**/
+.Internet_Things .item3{
+	color: #fff;
+	padding:  80px 0;
+	font-family: PingFangSC-Medium;
+}
+.Internet_Things .item3 h2{
+	padding: 0;
+	font-size: 32px;
+	font-weight: 700;
+	margin: 150px 0 50px 0;
+}
+.Internet_Things .item3 p{
+	font-size: 18px;
+	line-height: 1.5;
+}
+/**/
+.Internet_Things .item4{
+	padding: 80px 0;
+	font-family: PingFangSC-Medium;
+}
+.Internet_Things .item4 h2{
+	padding: 0;
+	font-size: 32px;
+	font-weight: 700;
+	margin: 100px 0 50px 0;
+}
+.Internet_Things .item4 ul{
+	margin: 0;
+	padding: 0 0 0 20px;
+}
+.Internet_Things .item4 ul li{
+	padding: 0;
+	color: #999;
+	font-size: 18px;
+	margin: 0 0 20px 0;
+}
+#grad {
+	background: -webkit-linear-gradient(left, #5E30C1,#473ABA,#2549AF); /* Safari 5.1 - 6.0 */
+	background: -o-linear-gradient(right,#5E30C1,#473ABA,#2549AF); /* Opera 11.1 - 12.0 */
+	background: -moz-linear-gradient(right, #5E30C1,#473ABA,#2549AF); /* Firefox 3.6 - 15 */
+	background: linear-gradient(to right, #5E30C1,#473ABA,#2549AF); /* 标准的语法 */
+}
+
+
+
+/*玉犀共享电动车*/
+/*玉犀共享电动车*/
+.internet_Things_car .item1{
+	color: #fff;
+	width: 100%;
+	height: 560px;
+	background:  url("../img/internet_thinks/banner2.png")/*tpa=http://yuxiit.lingnan.ren/img/internet_thinks/banner2.png*/ no-repeat center center #000;
+	background-size: auto 100%;
+	margin-top: 90px;
+	text-align: center;
+	overflow: hidden;
+}
+.internet_Things_car .item1_1{
+	background:  url("../img/internet_thinks/banner5.png")/*tpa=http://yuxiit.lingnan.ren/img/internet_thinks/banner5.png*/ no-repeat center center #000;
+}
+.internet_Things_car .item1{
+	line-height: 1;
+}
+.internet_Things_car .item1 h2,
+.internet_Things_car .item1 h4,
+.internet_Things_car .item1 a{
+	margin: 0;
+	padding: 0;
+}
+.internet_Things_car .item1 h2{
+	font-size: 48px;
+	margin: 120px 0 70px 0;
+}
+.internet_Things_car .item1 h4{
+		font-size: 24px;
+		color: rgba(255,255,255,0.7);
+}
+.internet_Things_car .item1 a{
+	color: #fff;
+	width: 160px;
+	height: 48px;
+	font-size:16px;
+	line-height: 48px;
+	border: 1px solid #fff;
+	background: none;
+	display: inline-block;
+	outline: none;
+	margin-top: 70px;
+}
+/**/
+.internet_Things_car  .item2{
+	padding: 80px 0;
+	overflow: hidden;
+}
+.internet_Things_car  .item2 h2{
+	color: #333;
+	margin:0 auto 80px auto;
+	padding: 0;
+	line-height: 1;
+	font-size: 34px;
+}
+.internet_Things_car  .item2 div{
+	/*margin-top: 92px;*/
+}
+/*.internet_Things_car  .item2 div h4{
+	color: #333;
+	font-size: 22px;
+	padding: 0;
+	margin: 30px 0 16px 0;
+}
+.internet_Things_car  .item2 div h6{
+	color: #999;
+	font-size: 14px;
+	padding: 0 24%;
+	margin: 0;
+}*/
+/**/
+.internet_Things_car .item3{
+	width: 100%;
+	height: 700px;
+	background: url("../img/internet_thinks/car_bg.png")/*tpa=http://yuxiit.lingnan.ren/img/internet_thinks/car_bg.png*/ no-repeat center center #F6F7F9;
+	background-size: auto 700;
+}
+.internet_Things_car .item3 h2{
+	color: #333;
+	padding: 0;
+	font-size: 32px;
+	font-weight: 700;
+	margin: 160px 0 50px 0;
+}
+.internet_Things_car .item3 p{
+	padding: 0;
+	color: #666;
+	font-size: 18px;
+	line-height: 1.8;
+	margin: 0 0 40px 0;
+}
+.internet_Things_car .item3 ul{
+	margin: 0;
+	color: #999;
+	padding: 0 0 0 20px;
+}
+.internet_Things_car .item3 ul li{
+	padding: 0;
+	font-size: 16px;
+	margin: 0 0 24px 0;
+}
+/**/
+.internet_Things_car .item4{
+	 padding: 176px 0;
+}
+.internet_Things_car .item4 h2{
+	color: #333;
+	font-size: 32px;
+	padding: 0;
+	margin: 0 0 50px 0;
+}
+.internet_Things_car .item4 p{
+	margin: 0;
+	padding: 0;
+	color: #666;
+	font-size: 18px;
+	line-height: 1.5;
+}
+.internet_Things_car .item5{
+	padding: 80px 0;
+	background: #FAFAFA;
+	overflow: hidden;
+}
+.internet_Things_car .item5 h2{
+	color: #333;
+	font-size:34px;
+	margin-bottom: 30px;
+}
+.internet_Things_car .item5 h4{
+	color: #999;
+	margin-bottom: 60px;
+	font-size:20px;
+}
+.internet_Things_car .item5 a.list-item{
+	background: #fff;
+	height: 300px;
+	margin: 0 12px;
+	box-shadow: 0 2px 8px 0px rgba(0,0,0,0.15);
+	overflow: hidden;
+	display: block;
+	cursor: pointer;
+	text-decoration: none;
+}
+.internet_Things_car .item5 a.list-item:hover{
+	background: #f8f8f8;
+}
+.internet_Things_car .item5 .list-item img{
+	max-width: 100px;
+	max-height: 100px;
+	margin: 64px auto 50px;
+}
+.internet_Things_car .item5 .list-item span{
+	display: block;
+	color: #333;
+	font-size:24px;
+}
+.internet_Things_car .item6{
+	padding: 80px 0;
+	overflow: hidden;
+}
+.internet_Things_car .item6 h2{
+	color: #333;
+font-size:34px;
+}
+.internet_Things_car .item6 .conter-img{
+	margin: 50px auto;
+	overflow: hidden;
+}
+.internet_Things_car .item6 .min-icons div{
+	padding: 30px 0 40px 0;
+	overflow: hidden;
+}
+.internet_Things_car .item6 .min-icons h4,
+.internet_Things_car .item6 .min-icons h6{
+	margin: 0;
+	padding: 0;
+	line-height: 1;
+}
+.internet_Things_car .item6 .min-icons h4{
+	color: #333;
+	font-size:24px;
+	margin: 20px 0;
+}
+.internet_Things_car .item6 .min-icons h6{
+	color: #999;
+	font-size:16px;
+}
+.internet_Things_car .item7{
+	background: #FAFAFA;
+	padding: 80px 0;
+	overflow: hidden;
+}
+.internet_Things_car .item7 h2,
+.internet_Things_car .item7 h4,
+.internet_Things_car .item7 .electric .electric-left h6,
+.internet_Things_car .item7 .electric .electric-left p{
+	margin: 0 auto;
+	padding: 0;
+	line-height: 1;
+}
+.internet_Things_car .item7 h2{
+	color: #333;
+	font-size:34px;
+	margin-bottom: 30px;
+}
+.internet_Things_car .item7 h4{
+	color: #999;
+	font-size:20px;
+	margin-bottom: 60px;
+}
+.internet_Things_car .item7 .electric{
+	background: #fff;
+	padding: 30px;
+	overflow: hidden;
+	box-shadow: 0 5px 10px 0 rgba(0,0,0,0.05);
+}
+.internet_Things_car .item7 .electric .electric-left{
+	/*width: 26%;*/
+	/*float: left;*/
+	text-align: left;
+}
+.internet_Things_car .item7 .electric .electric-left h6{
+	color: #333;
+	font-size:24px;
+	margin: 60px 0 30px 0;
+}
+.internet_Things_car .item7 .electric .electric-left p{
+	color: #999;
+	font-size: 16px;
+	line-height: 1.5;
+}
+.internet_Things_car .item7 .electric .electric-right{
+	/*width: 70%;*/
+/*	float: right;*/
+}
+.internet_Things_car .item8{
+	padding: 80px 0;
+	overflow: hidden;
+}
+.internet_Things_car .item8 h2,
+.internet_Things_car .item8 h4{
+	margin: 0;
+	padding: 0;
+	line-height: 1;
+}
+.internet_Things_car .item8 h2{
+	color: #333;
+	font-size:34px;
+}
+.internet_Things_car .item8 h4{
+	color: #999;
+	font-size:20px;
+	margin: 30px auto 60px auto;
+}
+.internet_Things_car .item9,
+.internet_Things_car .item10{
+	padding: 80px 0;
+	overflow: hidden;
+}
+.internet_Things_car .item9 h2,
+.internet_Things_car .item9 h4{
+	margin: 0;
+	padding: 0;
+	line-height: 1;
+}
+.internet_Things_car .item9 h2{
+	color: #333;
+	font-size:24px;
+	margin-top: 24px;
+}
+.internet_Things_car .item9 h4{
+	color: #999;
+	font-size: 18px;
+	margin-top: 20px;
+}
+.internet_Things_car .item9 span{
+	display: block;
+	width: 20px;
+	height: 4px;
+	margin: 24px auto 10px auto;
+	background: #FF1717;
+}
+.internet_Things_car .item10 .item10-right div{
+	padding: 18px 0;
+	overflow: hidden;
+}
+.internet_Things_car .item10 .item10-right div img{
+	position: relative;
+	top: 16px;
+}
+.internet_Things_car .item10 .lgservers{
+position: relative; 
+top: 40px;
+}
+.internet_Things_car .item10 p{
+	margin-left: 24px;
+}
+.internet_Things_car .item10 p span{
+	display: block;
+}
+.internet_Things_car .item10 p .span1{
+		color: #333;
+	font-size: 22px;
+	margin-bottom: 16px;
+}
+.internet_Things_car .item10 p .span2{
+		color: #999;
+	font-size:14px;
+}
+
+
+
+/*adasdsadasdasd*/
+/*asdasdsadsadsa*/
+.internet_Things_IOT .item1{
+	color: #fff;
+	width: 100%;
+	height: 560px;
+	background:  url("../img/internet_thinks/banner3.png")/*tpa=http://yuxiit.lingnan.ren/img/internet_thinks/banner3.png*/ no-repeat center center #000;
+	background-size: auto 100%;
+	margin-top: 90px;
+	text-align: center;
+	overflow: hidden;
+}
+.internet_Things_IOT  .item1 h2{
+	padding: 0;
+	font-size: 46px;
+	margin: 200px 0 60px 0;
+}
+.internet_Things_IOT  .item1 h4{
+	margin: 0;
+	padding: 0 24%;
+	font-size: 22px;
+	line-height: 1.8;
+}
+/**/
+.internet_Things_IOT .item2{
+	padding: 37px 0;
+}
+.internet_Things_IOT .item2 h4{
+	color: #333;
+	font-size: 20px;
+	margin: 6px 0 16px 0;
+	padding: 0;
+}
+.internet_Things_IOT .item2 h6{
+	color: #ADADAD;
+	font-size: 12px;
+	padding: 0;
+	margin: 0;
+}
+/**/
+.internet_Things_IOT .item3{
+	padding: 80px 0;
+	background: #F6F7F9;
+}
+.internet_Things_IOT .item3 h2{
+	color: #333;
+	padding: 0;
+	font-size: 32px;
+	margin: 0 0 70px 0;
+}
+/**/
+.internet_Things_IOT .item4{
+	padding: 80px 0 40px 0;
+}
+.internet_Things_IOT .item4 h2{
+	color: #333;
+	padding: 0;
+	font-size: 32px;
+	margin: 0 0 100px 0;
+}
+.internet_Things_IOT .item4 .item4-index{
+	margin: 0 0 80px 0;
+}
+.internet_Things_IOT .item4 .item4-index h4{
+	color: #333;
+	padding: 0;
+	font-size: 22px;
+	margin: 0 0 16px 0;
+}
+.internet_Things_IOT .item4 .item4-index h6{
+	color: #999;
+	padding: 0;
+	font-size: 14px;
+	margin: 0;
+	line-height: 1.5;
+}
+
+
+
+
+
+/*asdasdasdasdasd*/
+/*asdasdasdsadasd*/
+.internet_Things_hardware .item1{
+	color: #fff;
+	width: 100%;
+	height: 560px;
+	background:  url("../img/internet_thinks/banner4.png")/*tpa=http://yuxiit.lingnan.ren/img/internet_thinks/banner4.png*/ no-repeat center center #000;
+	background-size: auto 100%;
+	margin-top: 90px;
+	text-align: center;
+	overflow: hidden;
+}
+.internet_Things_hardware .item1 h2{
+	padding: 0;
+	font-size: 46px;
+	margin: 200px 0 60px 0;
+}
+.internet_Things_hardware .item1 h4{
+	margin: 0;
+	padding: 0;
+	font-size: 30px;
+}
+/**/
+.internet_Things_hardware .item2{
+	padding: 80px 0;
+}
+.internet_Things_hardware .item2 h2{
+	margin: 0 0 90px 0;
+	padding: 0;
+	color: #333;
+	font-size: 32px;
+	font-weight: 500;
+}
+.internet_Things_hardware .item2 div h4{
+	padding: 0;
+	margin: 35px 0 0 0;
+	font-size: 18px;
+	color: #999;
+}
+.internet_Things_hardware .item2 div a{
+	display: block;
+	width: 160px;
+	height: 48px;
+	line-height: 48px;
+	text-align: center;
+	color: #FF1717;
+	border: 1px solid #FF1717;
+	margin: 74px auto 0 auto;
+}
+/**/
+.internet_Things_hardware .item3{
+	padding: 80px 0;
+	background: #F6F7F9;
+}
+.internet_Things_hardware .item3 h2{
+	padding: 0;
+	color: #333;
+	font-size: 32px;
+	margin: 0 0 30px 0;
+}
+.internet_Things_hardware .item3 h4{
+	color: #999;
+	padding: 0;
+	font-size: 18px;
+	margin: 0 0 80px 0;
+}
+/**/
+.internet_Things_hardware .item4{
+	padding: 80px 0;
+}
+.internet_Things_hardware .item4 h2{
+	color: #333;
+	font-size: 32px;
+	margin: 0 0 30px 0;
+	padding: 0;
+}
+.internet_Things_hardware .item4 h3{
+	color: #999;
+	font-size: 18px;
+	margin: 0 0 80px 0;
+	padding: 0;
+}
+.internet_Things_hardware .item4 h4{
+	color: #333;
+	font-size: 22px;
+	margin: 40px 0 0 0;
+	padding: 0;
+}
+.internet_Things_hardware .item4 h6{
+	color: #999;
+	margin: 20px 0;
+	padding: 0;
+	font-size: 14px;
+}
+/*item5*/
+.internet_Things_hardware .item5{
+	color: #fff;
+	height: 460px;
+}
+.internet_Things_hardware .item5 h2{
+	margin: 80px 0 30px 0;
+	padding: 0;
+	font-size: 32px;
+}
+.internet_Things_hardware .item5 h4{
+	margin: 0;
+	padding: 0;
+	font-size: 18px;
+}
+.internet_Things_hardware .item5 img{
+	position: relative;
+	top: 60px;
+}
+#grad2{
+	background: -webkit-linear-gradient(#0F1A76,#1B5E95); /* Safari 5.1 - 6.0 */
+	background: -o-linear-gradient(#0F1A76,#1B5E95); /* Opera 11.1 - 12.0 */
+	background: -moz-linear-gradient(#0F1A76,#1B5E95); /* Firefox 3.6 - 15 */
+	background: linear-gradient(#0F1A76,#1B5E95); /* 标准的语法 */
+}
+/*item6*/
+.internet_Things_hardware .item6{
+	background: #F6F7F9;
+	padding-top: 476px;
+	padding-bottom: 70px;
+}
+.internet_Things_hardware .item6 h2{
+	color: #333;
+	margin: 0;
+	padding: 0;
+	font-size: 32px;
+}
+.internet_Things_hardware .item6 h4{
+	color: #999;
+	margin: 30px 0 40px 0;
+	padding: 0;
+	font-size: 18px;
+}
+.internet_Things_hardware .item6  .item6-index{
+	padding: 0 20%;
+}
+.internet_Things_hardware .item6  .item6-index div{
+	background: #fff;
+	padding: 0;
+	border: 30px solid #F6F7F9;
+}
+.internet_Things_hardware .item6  .item6-index div:hover{
+	border: 30px solid #F1F3F6;
+	background: #F1F3F6;
+}
+.internet_Things_hardware .item6  .item6-index div img{
+	margin: 60px auto 0 auto;
+	padding: 0;
+}
+.internet_Things_hardware .item6  .item6-index div p{
+	color: #666;
+	font-size: 14px;
+	margin: 32px 0 56px 0;
+	padding: 0 16%;
+}
+
+
+
+
+/*@media screen and (max-width: 990px) {
+}
+@media screen and (max-width: 800px) {
+}
+@media screen and (max-width: 768px) {
+}
+@media screen and (max-width: 600px) {
+}
+@media screen and (max-width: 500px) {
+}*/
+
+
+
+@media (max-width:770px){
+	.navbar-default .navbar-brand img{
+	margin: 12px 0 13px 0;
+	}
+	.navbar-default .navbar-brand span {
+	margin-top: 20px;
+	}
+}
+
+
+
+@media screen and (max-width: 414px) {
+		.Internet_Things .item1{
+				width: 100%;
+				height: 155px;
+				background-size:  auto 100%;
+		}
+		.Internet_Things .item1 h2{
+			font-size: 22px;
+			margin: 40px 0 15px 0;
+		}
+		.Internet_Things .item1 h4{
+				font-size: 15px;
+		}
+		/**/
+		.Internet_Things .item2{
+				padding:  20px 0;
+		}
+		.Internet_Things .item2 h2{
+				font-size: 22px;
+				margin: 40px 0 15px 0;
+		}
+		.Internet_Things .item2 ul{
+				margin: 0;
+				padding: 0;
+		}
+		.Internet_Things .item2 ul li{
+				font-size: 15px;
+				margin-bottom: 15px;
+		}
+		/**/
+		.Internet_Things .item3{
+				padding:  20px 0;
+		}
+		.Internet_Things .item3 h2{
+				font-size: 22px;
+				margin: 40px 0 15px 0;
+		}
+		.Internet_Things .item3 p{
+				font-size: 15px;
+		}
+		/**/
+		.Internet_Things .item4{
+				padding: 20px 0;
+		}
+		.Internet_Things .item4 h2{
+				font-size: 22px;
+				margin: 40px 0 15px 0;
+		}
+		.Internet_Things .item4 ul{
+				padding: 0;
+		}
+		.Internet_Things .item4 ul li{
+				font-size: 15px;
+				margin: 0 0 15px 0;
+		}
+
+
+
+		/**/
+		.internet_Things_hardware .item1{
+				width: 100%;
+				height: 155px;
+				background-size:  auto 100%;
+		}
+		.internet_Things_hardware .item1 h2{
+				font-size: 22px;
+				margin: 40px 0 15px 0;
+		}
+		.internet_Things_hardware .item1 h4{
+				font-size: 15px;
+		}
+		/**/
+		.internet_Things_hardware .item2{
+				padding: 40px 0;
+		}
+		.internet_Things_hardware .item2 h2{
+				margin: 0 0 22px 0;
+				font-size: 22px;
+		}
+		.internet_Things_hardware .item2 div h4{
+				margin: 15px 0 0 0;
+				font-size: 15px;
+		}
+		.internet_Things_hardware .item2 div a{
+				width: 120px;
+				height: 36px;
+				line-height: 36px;
+				font-size: 12px;
+				margin: 25px auto 0 auto;
+		}
+		/**/
+		.internet_Things_hardware .item3{
+		padding: 40px 0;
+		}
+		.internet_Things_hardware .item3 h2{
+				font-size: 22px;
+				margin: 0 0 15px 0;
+		}
+		.internet_Things_hardware .item3 h4{
+				font-size: 15px;
+				line-height: 1.5;
+				margin: 0 0 20px 0;
+		}
+		/**/
+		.internet_Things_hardware .item4{
+				padding: 40px 0;
+		}
+		.internet_Things_hardware .item4 h2{
+				font-size: 22px;
+				margin: 0 0 15px 0;
+		}
+		.internet_Things_hardware .item4 h3{
+				font-size: 15px;
+				line-height: 1.5;
+				margin: 0 10% 40px 10%;
+		}
+		.internet_Things_hardware .item4 h4{
+				font-size: 15px;
+				margin: 15px 0 0 0;
+		}
+		.internet_Things_hardware .item4 h6{
+				margin: 10px 0;
+				font-size: 12px;
+		}
+		/*item5*/
+		.internet_Things_hardware .item5{
+				height: 153.33px;
+		}
+		.internet_Things_hardware .item5 h2{
+				margin: 40px 0 15px 0;
+				font-size: 22px;
+		}
+		.internet_Things_hardware .item5 h4{
+				margin: 0 10%;
+				font-size: 15px;
+				line-height: 1.5;
+		}
+		.internet_Things_hardware .item5 img{
+				position: relative;
+				top: 40px;
+		}
+		/*item6*/
+		.internet_Things_hardware .item6{
+				padding-top: 270px;
+				padding-bottom: 40px;
+		}
+		.internet_Things_hardware .item6 h2{
+				font-size: 22px;
+		}
+		.internet_Things_hardware .item6 h4{
+				margin: 15px 10% 20px 10%;
+				font-size: 15px;
+				line-height: 1.5;
+		}
+		.internet_Things_hardware .item6  .item6-index{
+				padding: 0;
+		}
+		.internet_Things_hardware .item6  .item6-index div{
+				padding: 0;
+				border: 8px solid #F6F7F9;
+		}
+		.internet_Things_hardware .item6  .item6-index div:hover{
+				border: 8px solid #F6F7F9;
+		}
+		.internet_Things_hardware .item6  .item6-index div img{
+				margin: 8px auto 0 auto;
+		}
+		.internet_Things_hardware .item6  .item6-index div p{
+				font-size: 12px;
+				margin: 10px 0 18px 0;
+				padding: 0 8%;
+		}
+
+
+		/*asdasdsadsadsa*/
+		.internet_Things_IOT .item1{
+				width: 100%;
+				height: 185px;
+				background-size:  auto 100%;
+		}
+		.internet_Things_IOT  .item1 h2{
+				font-size: 22px;
+				margin: 40px 0 15px 0;
+		}
+		.internet_Things_IOT  .item1 h4{
+				padding: 0 4%;
+				font-size: 14px;
+				line-height: 1.5;
+		}
+		/**/
+		.internet_Things_IOT .item2{
+				padding: 20px 0;
+				text-align: center;
+		}
+		.internet_Things_IOT .item2 h4{
+				font-size: 15px;
+				margin: 4px 0 8px 0;
+		}
+		.internet_Things_IOT .item2 h6{
+				margin: 0 0 15px 0;
+		}
+		/**/
+		.internet_Things_IOT .item3{
+				padding: 40px 0;
+		}
+		.internet_Things_IOT .item3 h2{
+				font-size: 22px;
+				margin: 0 0 20px 0;
+		}
+		/**/
+		.internet_Things_IOT .item4{
+				padding: 40px 0;
+		}
+		.internet_Things_IOT .item4 h2{
+		font-size: 22px;
+		margin: 0 0 40px 0;
+		}
+		.internet_Things_IOT .item4 .item4-index{
+		margin: 0 0 30px 0;
+		}
+		.internet_Things_IOT .item4 .item4-index h4{
+		font-size: 15px;
+		margin: 0 0 8px 0;
+		}
+		.internet_Things_IOT .item4 .item4-index h6{
+		font-size: 12px;
+		}
+
+
+		/*adasdasdasddas*/
+		.internet_Things_car .item1{
+				width: 100%;
+				height: 155px;
+				margin-top: 50px;
+				background-size:  auto 100%;
+		}
+		.internet_Things_car .item1 h2{
+				font-size: 22px;
+				margin: 40px 0 15px 0;
+		}
+		.internet_Things_car .item1 h4{
+				font-size: 15px;
+		}
+/**/
+.internet_Things_car  .item2{
+			padding: 40px 0;
+}
+.internet_Things_car  .item2 h2{
+			margin: 0 0 15px 0;
+			font-size: 22px;
+}
+.internet_Things_car  .item2 div{
+			margin-top: 40px;
+}
+.internet_Things_car  .item2 div h4{
+			font-size: 15px;
+			margin: 15px 0 8px 0;
+}
+.internet_Things_car  .item2 div h6{
+			font-size: 12px;
+			padding: 0 5%;
+}
+/**/
+		.internet_Things_car .item3{
+				width: 100vw;
+				height: auto;
+				background: url("../img/internet_thinks/car_bg.png")/*tpa=http://yuxiit.lingnan.ren/img/internet_thinks/car_bg.png*/ no-repeat right right #F6F7F9;
+				background-size: 100% auto;
+		}
+		.internet_Things_car .item3 h2{
+				font-size: 22px;
+				margin: 40px 0 15px 0;
+		}
+		.internet_Things_car .item3 p{
+				font-size: 15px;
+				margin: 0 0 15px 0;
+		}
+		.internet_Things_car .item3 ul{
+				padding: 0;
+		}
+		.internet_Things_car .item3 ul li{
+				font-size: 13px;
+				margin: 0 0 15px 0;
+		}
+		/**/
+		.internet_Things_car .item4{
+				padding: 40px 0;
+		}
+		.internet_Things_car .item4 h2{
+				font-size: 22px;
+				margin: 0 0 15px 0;
+		}
+		.internet_Things_car .item4 p{
+				font-size: 15px;
+		}
+		.internet_Things_car .item3{
+					background: #F6F7F9;
+			}
+			.navbar-default .navbar-brand{
+		margin: 0;
+	}
+/*.item1_1*/
+.internet_Things_car .item1_1,
+.internet_Things_car .item1_2{
+	height: 240px;
+	margin-top: 56px;
+}
+.internet_Things_car .item1_1 h2,
+.internet_Things_car .item1_2 h2,
+.internet_Things_car .item1_1 h4,
+.internet_Things_car .item1_2 h4{
+	padding: 0 0.36rem;
+}
+.internet_Things_car .item1_1 h2,
+.internet_Things_car .item1_2 h2{
+	font-size: 20px;
+}
+.internet_Things_car .item1_1 h4,
+.internet_Things_car .item1_2 h4{
+	font-size: 13px;
+}
+.internet_Things_car .item1_1 a,
+.internet_Things_car .item1_2 a{
+	width: 114px;
+	height: 34px;
+	font-size:14px;
+	line-height: 34px;
+	margin-top: 18px;
+}
+	/**/
+.internet_Things_car .item5,
+.internet_Things_car .item6,
+.internet_Things_car .item8,
+.internet_Things_car .item9,
+.internet_Things_car .item10{
+		padding: 28px 0;
+	}
+	.internet_Things_car .item9 h2 {
+		font-size: 20px;
+		margin-top: 12px;
+	}
+	.internet_Things_car .item9 span {
+		margin: 12px auto 5px auto;
+	}
+	.internet_Things_car .item9 h4 {
+		font-size: 14px;
+		margin-top: 10px;
+	}
+	.internet_Things_car .item5 h4 {
+    margin-bottom: 30px;
+    font-size: 20px;
+}
+	.internet_Things_car .item5 a.list-item{
+		height: 180px;
+		margin: 8px 0;
+	}
+	.internet_Things_car .item5 .list-item img {
+    max-width: 100px;
+    max-height: 100px;
+    margin: 18px auto 15px auto;
+}
+.internet_Things_car .item5 .list-item span {
+    font-size: 15px;
+}
+/**/
+.internet_Things_car .item6 .conter-img{
+	margin: 17px auto;
+}
+.internet_Things_car .item6 .min-icons div{
+	padding: 10px 0 13px 0;
+	
+}
+.internet_Things_car .item6 .min-icons h4 {
+    font-size: 20px;
+    margin: 8px 0;
+}
+.internet_Things_car .item6 .min-icons h6 {
+   line-height: 1.5;
+}
+.internet_Things_car .item10 .lgservers{
+top: 0;
+}
+.internet_Things_car .item10 .item10-right{
+	margin-left: 24px;
+}
+	.internet_Things_car .item7 .electric{
+		padding: 20px 0;
+	}
+	.internet_Things_car .item7 .electric .electric-left h6{
+		font-size: 24px;
+		margin: 0 0 15px 0;
+	}
+	.internet_Things_car .item8 h4 {
+	font-size: 20px;
+	margin: 22px 8px;
+	line-height: 1.5;
+	}
+}
+
+/*@media screen and (max-width: 320px) {
+}*/

@@ -1,0 +1,343 @@
+.hardwareBanner{
+	color: #fff;
+	margin-top: 90px;
+	/*min-height: 560px;*/
+	background: url("../img/yuxiupdata/hardware2.png")/*tpa=http://yuxiit.lingnan.ren/img/yuxiupdata/hardware2.png*/ no-repeat;
+	overflow: hidden;
+}
+.hardwareBanner h2{
+	font-size: 48px;
+	margin: 190px 0 60px 0;
+}
+.hardwareBanner p{
+	font-size: 32px;
+	margin-bottom: 212px;
+}
+
+
+
+/*马蹄锁 horseLock*/
+.horseLock{
+		color: #333;
+		overflow: hidden;
+		background: #FAFAFA;
+}
+.horseLock .horseLock-left h2{
+	font-size:36px;
+	margin: 230px 0 0 0;
+}
+.horseLock .horseLock-left p{
+	font-size: 18px;
+	margin: 18px 0 0 0;
+}
+.horseLock .horseLock-left a{
+	display: block;
+	font-size:14px;
+	color: #FF1717;
+	margin: 14px 0 0 0;
+}
+
+
+.horseLock .horseLock2-item{
+	margin-top: -20px;
+	max-height: 600px;
+	overflow: hidden;
+}
+.horseLock .horseLock2-item h2{
+	font-size:36px;
+	margin: 52px 0 0 0;
+}
+.horseLock .horseLock2-item p{
+	font-size: 18px;
+	margin: 18px 0 0 0;
+}
+.horseLock .horseLock2-item a{
+	display: block;
+	font-size:14px;
+	color: #FF1717;
+	margin: 14px 0 0 0;
+}
+.horseLock .horseLock2-item img{
+	margin-top: 26px;
+}
+
+
+
+
+
+
+
+
+
+/*硬件详情*/
+.navget{
+		color: #333;
+		width: 100%;
+		height: 60px;
+		line-height: 60px;
+		font-size:16px;
+		margin: 90px auto 0 auto;
+		padding: 0 22%;
+		box-sizing: border-box;
+		border-top: 1px solid #EFEFEF;
+		border-bottom: 1px solid #EFEFEF;
+}
+.hard-details h2{
+	color: #333;
+	font-size:36px;
+	margin: 0;
+	padding: 0;
+}
+.hard-details p{
+	color: #333;
+	font-size:18px;
+	margin: 0;
+	padding: 0;
+}
+
+
+
+
+
+
+
+/*controller 联网控制器*/
+.controller{
+	padding-bottom: 20px;
+	overflow: hidden;
+}
+.controller h2,
+.controller p,
+.controller2 h2
+.controller2 p{
+	padding: 0;
+}
+.controller h2{
+	margin: 92px 0 0 0; 
+}
+.controller p{
+	margin: 18px 0 0 0; 
+}
+.controller .min-icon{
+	color: #999;
+	margin: 60px 0;
+}
+.controller .min-icon img{
+	margin-bottom: 16px;
+}
+
+.controller2{
+	margin-top: 110px;
+	padding-bottom: 200px;
+}
+.controller2 .cont{
+	margin-top: 82px;
+}
+.controller2 .cont h2{
+	color: #333;
+	font-size: 32px;
+	margin: 166px 0 0 0;
+}
+.controller2 .cont .p1{
+	font-size: 14px;
+	margin:25px 0 0 0; 
+}
+.controller2 .cont .p2{
+	color: #333;
+	margin: 0;
+	font-size:14px; 
+}
+.controller2 .cont .segment{
+	color: #999;
+	font-size: 20px; 
+	margin-top: 24px;
+	margin-bottom: 60px; 
+}
+.controller2 .cont .segment div{
+	height: 22px; 
+	line-height: 22px;
+	border-right: 1px solid #999; 
+}
+
+
+.controller3{
+	padding: 180px 0 200px 0;
+}
+.controller3 h2{
+	color: #333;
+	font-size:36px;
+	margin: 40px 0 0 0;
+	padding: 0;
+}
+.controller3 .p1{
+	color: #333;
+	font-size:18px;
+	margin: 30px 0 0 0;
+	padding: 0;
+}
+.controller3 .p2{
+	color: #333;
+	font-size:15px;
+	margin: 60px 0 0 0;
+	padding: 0;
+	line-height: 2;
+}
+
+
+
+
+.marg220{
+	margin-top: 220px !important;
+}
+.img3{
+	margin: 80px auto 120px auto !important;
+}
+.min-conter{
+	margin-top: 65px !important;;
+	margin-bottom: 60px !important;;
+	font-size:14px !important;;
+	color: #999 !important;
+}
+.marr18{
+	margin-top: 18px !important;
+}
+.marr-t24{
+	margin-top: 24px !important;
+}
+.marr-b18{
+	margin-bottom: 18px !important;
+}
+.marr-b30{
+	margin-bottom: 30px !important;
+}
+.marr-t92{
+	margin-top: 92px !important;
+}
+
+
+
+
+@media (max-width:770px){
+	.hardwareBanner{
+		margin-top: 50px;
+}
+.hardwareBanner h2{
+	font-size: 16px;
+	margin: 30px 0 20px 0;
+}
+.hardwareBanner p{
+	font-size: 12px;
+	margin-bottom: 30px;
+}
+/*马蹄锁 horseLock*/
+.horseLock .horseLock-left h2{
+	font-size:12px;
+	margin: 30px 0 0 0;
+}
+.horseLock .horseLock-left p{
+	font-size: 14px;
+	margin: 10px 0 0 0;
+}
+.horseLock .horseLock2-item h2{
+	font-size:18px;
+	margin: 15px 0 0 0;
+}
+.horseLock .horseLock2-item p{
+	font-size: 15px;
+	margin: 10px 0 0 0;
+}
+.horseLock .horseLock2-item img{
+	margin-top: 12px;
+}
+
+
+
+	.navget{
+		margin: 50px auto 0 auto  !important;
+	}
+	.hard-details h2{
+	font-size: 16px  !important;
+	}
+	.hard-details p{
+	font-size:13px  !important;
+	}
+		.marg220{
+			margin-top: 30px  !important;
+		}
+		.img3{
+			margin: 20px auto 20px auto  !important;
+		}
+		.min-conter{
+			margin-top: 15px  !important;
+			margin-bottom: 15px  !important;
+		}
+		.marr18{
+		margin-top: 10px  !important;
+		}
+		.marr-t24{
+		margin-top: 10px  !important;
+		}
+		.marr-b18{
+		margin-bottom: 10px  !important;
+		}
+		.marr-b30{
+		margin-bottom: 10px  !important;
+		}
+		.marr-t92{
+		margin-top: 20px  !important;
+		}
+
+
+		.controller{
+			padding-bottom: 10px;
+		}
+		.controller h2{
+			margin: 23px 0 0 0; 
+		}
+		.controller p{
+			margin: 9px 0 0 0; 
+		}
+		.controller .min-icon{
+			margin: 15px 0;
+		}
+		.controller .min-icon img{
+			margin-bottom: 8px;
+		}
+
+		.controller2{
+				margin-top: 26px;
+				padding-bottom: 40px;
+		}
+		.controller2 .cont{
+				margin-top: 20px;
+		}
+		.controller2 .cont h2{
+				font-size: 22px;
+				margin: 33px 0 0 0;
+		}
+		.controller2 .cont .p1{
+				margin:12px 0 0 0; 
+		}
+		.controller2 .cont .segment{
+				font-size: 14px; 
+				margin-top: 12px;
+				margin-bottom: 18px; 
+		}
+
+		.controller3{
+				padding: 36px 0 40px 0;
+				text-align: center;
+		}
+		.controller3 h2{
+				font-size:24px;
+				margin: 20px 0 0 0;
+		}
+		.controller3 .p1{
+				font-size:15px;
+				margin: 15px 0 0 0;
+		}
+		.controller3 .p2{
+				font-size:15px;
+				margin: 20px 0 0 0;
+		}
+}

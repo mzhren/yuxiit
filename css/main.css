@@ -1,0 +1,499 @@
+html{font-size: 45px;}
+html,body{
+	width: 100%;
+	overflow-x: hidden;
+	font-family: "PingFangSC-Regular", "微软雅黑", "Microsoft YaHei";
+}
+
+
+/*头部导航*/
+.top-list-nav{background: #fff;}
+.top-list-nav p, .top-list-nav ul li, .top-list-nav p a, .top-list-nav ul li a{ margin: 0; padding: 0; height: 60px; line-height: 60px;}
+.top-list-nav .navbar-brand{height: auto; padding: 0;}
+.top-list-nav ul li{ position: relative; }
+.top-list-nav ul li a{ margin: 0 15px; display: block; color: #717171;}
+.top-list-nav ul li dl{ background: #fff; position: absolute;top: 60px;left: 0;display: none; }
+.top-list-nav ul li dl dd{width: 4rem;/*padding: 0.2rem;*/cursor: pointer;}
+.top-list-nav ul li dl dd a{height: 100%; line-height: 3;}
+.top-list-nav ul li dl dd:hover{background: #ddd;}
+.top-list-nav ul li:hover dl{ display: block;}
+.top-list-nav .activ{ color: #749dd6;}
+.top-list-nav .navbar-header{ padding-right: 75px;}
+
+
+/*banner-1*/
+.banner-1{
+	width: 100%;
+	font-size: 0.5rem;
+	padding-bottom: 55px;
+	font-weight: 300;
+	background: url("../img/banner_bg.png")/*tpa=http://yuxiit.lingnan.ren/img/banner_bg.png*/ center center;
+}
+.banner-1 .line-1{ margin: 2.22rem 0 1.16rem 0; }
+.banner-1 .line-2{ margin-bottom: 2.22rem; }
+.banner-1 .line-3{ color: #fff; padding: 0 5rem; }
+.banner-1 .line-3 a{
+	width: 2.44rem;
+	height: 2.44rem;
+	display: block;
+	line-height: 2.44rem;
+	text-align: center;
+	border-radius: 50%;
+	margin: 8px auto;
+	background: rgba(255,255,255,0.7);
+}
+.banner-1 .line-3 a img{ max-width: 90%; }
+.banner-1 .line-4{ margin-top: 2.22rem; }
+.banner-1 .line-4 button{
+	width: 3.5rem;
+	height: 1.29rem;
+	font-size: 0.55rem;
+	border: 2px solid #fff;
+	border-radius: 12px;
+	background: none;
+	outline: none;
+}
+.banner-1 .line-4 button a{color: #ccc;}
+
+
+/*mode 模式*/
+.mode{ padding-bottom: 1.6rem; background: #fafaf6; }
+.mode h2{
+	font-size: 0.93rem;
+	font-weight: 300;
+	margin: 1.33rem 0 0.44rem 0;
+	padding: 0;
+}
+.mode h4{
+	font-size: 0.53rem;
+	font-weight: 300;
+	margin-bottom: 1.78rem;
+}
+
+
+/*security 便携与安全*/
+.security{ color: #fff; background: url("../img/bg_1.png")/*tpa=http://yuxiit.lingnan.ren/img/bg_1.png*/ center center; padding-bottom: 1rem; }
+.security h1{
+	font-size: 0.93rem;
+	font-weight: 200;
+	margin: 1.33rem 0 0.44rem 0;
+	padding: 0;
+}
+.security h3{
+	font-size: 0.53rem;
+	font-weight: 200;
+	margin-bottom: 1.78rem;
+}
+.security h4{
+	font-size: 0.54rem;
+	font-weight: 200;
+}
+.security p{
+	font-size: 0.45rem;
+	margin: 0.3rem 0 1rem 0;
+	font-weight: 200;
+}
+.security-icon{
+	width: 2.8rem;
+	color: #fff;
+	margin: 0 auto;
+	border-bottom: 2px solid #fff;
+	padding-bottom: 0.5rem;
+	margin-bottom: 2rem;
+}
+.security-icon h2{ font-size: 0.62rem; font-weight: 300; }
+
+
+/*我们的服务优势*/
+.ervice{ background: #e0f2f6;}
+.ervice h2{ 
+	font-size: 0.93rem;
+	font-weight: 200;
+	margin: 1.33rem 0 0.44rem 0;
+	padding: 0;
+}
+.ervice h4{ 
+	font-size: 0.53rem;
+	font-weight: 200;
+	margin-bottom: 1.78rem;
+}
+.ervice h3{font-size: 0.57rem; margin-top: -0.33rem;}
+.ervice p{font-size: 0.45rem; margin-top: 0.8rem; color: #666;}
+.ervice .row{margin-bottom: 1.78rem;}
+
+
+/*我们的服务流程*/
+.development{
+	color: #fff;
+	height: auto;
+	background: url("../img/bg_2.png")/*tpa=http://yuxiit.lingnan.ren/img/bg_2.png*/ center center;
+	padding-bottom: 1.49rem;
+}
+.development h1{
+	font-size: 0.93rem;
+	font-weight: 200;
+	margin: 1.33rem 0 0.44rem 0;
+	padding: 0;
+}
+.development h3{
+	font-size: 0.53rem;
+	font-weight: 200;
+	margin-bottom: 1.78rem;
+}
+.development a{
+	width: 2.22rem; 
+	height: 2.22rem; 
+	display: block;
+	margin: 0 auto; 
+	border-radius: 50%; 
+	background: #4980c2; 
+	line-height: 2.22rem; 
+	text-align: center;
+	box-shadow: 4px 2px 10px #444;
+	position: relative;
+	z-index: 3;
+}
+.development a img{
+	max-width: 100%;
+}
+.development span{
+	/*position: relative;
+	bottom: 90px;*/
+	font-size: 0.45rem;
+	font-weight: 200;
+	margin: 15px 0;
+	/*margin: 100px 0 0 -20px;*/
+	display: block;
+}
+.deve-line{
+	width: 40%;
+	height: 16px;
+	margin: 0 auto;
+	background: #4980c2;
+	position: relative;
+	bottom: -40px;
+	left: 0;
+	z-index: 1;
+}
+
+
+/*联系我们*/
+.contact-us{
+	color: #fff;
+	font-size: 0.31rem;
+	background: #313435;
+}
+.contact-us span{
+	margin-left: 30px;
+	display: inline-block;
+	position: relative;
+	top: 10px;
+}
+.contact-us .border-line{
+	border-bottom: 1px solid #999;
+	padding: 24px 0;
+}
+.contact-us h2{
+	color: #c7d4d9;
+	font-size: 0.36rem;
+	font-weight: 200;
+}
+.contact-us ul li{
+	color: #676e70;
+	margin: 0.44rem 0;
+}
+.contact-us ul li a{
+	color: #676e70;
+}
+
+/**/
+.footer-info{
+	color: #444;
+	background: #fff;
+	padding: 0.44rem 0;
+}
+
+
+/*右边侧栏*/
+.right-tips{
+	position: fixed;
+	top: 40%;
+	right: 20px;
+}
+.right-tips ul li{
+	position: relative;
+}
+.right-tips ul li a{
+	width: 50px;
+	height: 50px;
+	display: block;
+	text-align: center;
+	line-height: 50px;
+	border-radius: 4px;
+	background: rgba(15,15,15,0.5);
+	margin: 8px 0;
+}
+.pop-right{
+	color: #fff;
+	position: absolute;
+	left: 70px;
+	/*left: -103px;*/
+	top: 0;
+	background: #0f1010;
+	padding: 0.2rem;
+	border-radius: 6px;
+}
+.pop-right-1{left: -103px;}
+.pop-right-2{left: 130px; top: 6px;}
+.sanjiao{
+	 width:12px; 
+	 height:12px; 
+	 background: #0f1010;
+	 position: absolute; top: 12px; right: -5px; 
+	 transform:rotate(45deg);
+	-ms-transform:rotate(45deg);
+	-moz-transform:rotate(45deg);
+	-webkit-transform:rotate(45deg);
+	-o-transform:rotate(45deg); 
+}
+
+/*媒体查询*/
+@media (max-width: 1024px){
+  html{
+    font-size: 45px;
+  }
+  .deve-line{
+  	display: none !important;
+  }
+}
+@media (max-width: 905px){
+  html{
+    font-size: 45px;
+  }
+}
+@media(max-width: 885px){
+  html{
+    font-size: 44px;
+  }
+}
+@media(max-width: 865px){
+  html{
+    font-size: 43px;
+  }
+}
+@media(max-width: 845px){
+  html{
+    font-size: 42px;
+  }
+}
+@media(max-width: 825px){
+  html{
+    font-size: 41px;
+  }
+}
+@media(max-width: 805px){
+  html{
+    font-size: 40px;
+  }
+}
+@media(max-width: 785px){
+	html{
+		font-size: 39px;
+	}
+	.banner-1 .line-3{
+		color: #fff;
+		padding: 0 2.5rem;
+	}
+	.line-3 a img{
+		width: 70%;
+	}
+	.development a img{
+		width: 68%;
+	}
+	.top-list-nav ul li{
+		height: auto;
+	}
+	.top-list-nav ul li dl{
+		background: #fff;
+		position: relative;
+		top: 0;
+		left: 0.8rem;
+		display: none;
+	}
+	.top-list-nav ul li dl dd{
+		color: #999;
+		width: 100%;
+		padding: 0.2rem;
+		cursor: pointer;
+	}
+}
+@media(max-width: 765px){
+  html{
+    font-size: 38px;
+  }
+}
+@media(max-width: 745px){
+  html{
+    font-size: 37px;
+  }
+}
+@media(max-width: 725px){
+  html{
+    font-size: 36px;
+  }
+}
+@media(max-width: 705px){
+  html{
+    font-size: 35px;
+  }
+}
+@media(max-width: 685px){
+  html{
+    font-size: 34px;
+  }
+}
+@media(max-width: 665px){
+  html{
+    font-size: 33px;
+  }
+}
+@media(max-width: 645px){
+  html{
+    font-size: 32px;
+  }
+}
+@media(max-width: 625px){
+  html{
+    font-size: 31px;
+  }
+}
+@media(max-width: 605px){
+  html{
+    font-size: 30px;
+  }
+}
+@media(max-width: 585px){
+  html{
+    font-size: 29px;
+  }
+}
+@media(max-width: 565px){
+  html{
+    font-size: 28px;
+  }
+}
+@media(max-width: 545px){
+  html{
+    font-size: 27px;
+  }
+}
+@media(max-width: 525px){
+  html{
+    font-size: 26px;
+  }
+}
+@media(max-width: 505px){
+  html{
+    font-size: 25px;
+  }
+}
+@media(max-width: 485px){
+  html{
+    font-size: 24px;
+  }
+}
+@media(max-width: 465px){
+  html{
+    font-size: 23px;
+  }
+}
+@media(max-width: 445px){
+  html{
+    font-size: 22px;
+  }
+}
+@media(max-width: 425px){
+  html{
+    font-size: 21px;
+  }
+}
+@media(max-width: 405px){
+  html{
+    font-size: 20px;
+  }
+}
+@media(max-width: 385px){
+  html{
+    font-size: 19px;
+  }
+}
+@media(max-width: 365px){
+  html{
+    font-size: 18px;
+  }
+}
+@media(max-width: 345px){
+  html{
+    font-size: 17px;
+  }
+}
+@media(max-width: 325px){
+  html{
+    font-size: 16px;
+  }
+}
+@media(max-width: 305px){
+  html{
+    font-size: 15px;
+  }
+}
+@media(max-width: 285px){
+  html{
+    font-size: 14px;
+  }
+}
+@media(max-width: 265px){
+  html{
+    font-size: 13px;
+  }
+}
+
+
+/*充电宝增加*/
+.layer{
+  padding: 120px 0;
+}
+.layer h2{
+  padding: 0;
+  color: #484D55; 
+  font-size: 40px;
+  text-align: center;
+  margin: 0 0 120px 0;
+}
+#sanjiao{
+  position: absolute; 
+  left: 0; 
+  top: 60px;
+}
+.layer-2 p{
+  display: none;
+}
+.layer-2 ul{
+  list-style: none; 
+  position: relative;
+}
+.layer-2 ul li{
+  margin-top: 55px; 
+  padding-left: 30px;
+  cursor: pointer;
+}
+.userbank{
+	font-size: 14px; 
+	color: #999999; 
+	margin-top: 10px; 
+	display: block;
+}
+.tip-user{
+	background: url("../img/sharabank/Group-6.png")/*tpa=http://yuxiit.lingnan.ren/img/sharabank/Group-6.png*/ no-repeat; 
+	background-position: right 34px;
+}

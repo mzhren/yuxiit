@@ -1,0 +1,533 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<title>共享滑板车,共享电动滑板车方案开发_玉犀科技【共享软硬件开发	】</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="keywords" content="共享app开发，共享软硬件系统开发，共享陪护床，共享家居电器开发，共享滑板车,共享项目开发，物联网app开发方案" />
+ <meta name="description" content="共享APP开发-玉犀科技专注于共享陪护床，共享电动车，共享汽车，共享充电桩，共享家居电器，共享按摩椅，共享充电宝，共享滑板车等共享软件开发及物联网解决方案" />
+	<link rel="shortcut icon" href="img/logoIco.ico">
+	<link rel="stylesheet" href="css/bootstrap.min.css" tppabs="http://yuxiit.lingnan.ren/css/bootstrap.min.css">
+		<link rel="stylesheet" href="css/main2.css" tppabs="http://yuxiit.lingnan.ren/css/main2.css">
+		<link rel="stylesheet" href="css/yuxi2019.css" tppabs="http://yuxiit.lingnan.ren/css/yuxi2019.css">
+
+			<link rel="stylesheet" href="css/new_index.css" tppabs="http://yuxiit.lingnan.ren/css/new_index.css">
+		<script>
+			window.onload = function() {
+				var _hmt = _hmt || [];
+				(function() {
+					var hm = document.createElement("script");
+					hm.src = "../hm.baidu.com/hm.js-b566040ef73848b128401db042a00e41"/*tpa=https://hm.baidu.com/hm.js?b566040ef73848b128401db042a00e41*/;
+					var s = document.getElementsByTagName("script")[0]; 
+					s.parentNode.insertBefore(hm, s);
+				})();
+			}
+		</script>
+</head>
+<body>
+		<!-- 顶部 -->
+		<!-- <nav class="navbar navbar-default navbar-fixed-top" style="background: rgba(255,255,255,1);">
+		<div class="container">
+		<div class="navbar-header">
+		<button class="navbar-toggle" data-toggle="collapse" data-target="#mynav">
+		<span>玉犀科技</span>
+		</button>
+		<a href="index.html"><img class="img-responsive" src="img/top_logo.png"></a>
+		</div>
+		<div class="collapse navbar-collapse" id="mynav">
+		<ul class="nav navbar-nav">
+		<li class="hidden-xs hidden-sm"><a href="index.html">首页 <span class="sr-only">(current)</span></a></li>
+		<li class="dropdown">
+		<a data-toggle="dropdown" role="button">解决方案 <span class="caret"></span></a>
+		<ul class="dropdown-menu">
+		<li><a href="javascript:void(0);" class="menu-group">共享</a></li>
+		<li><a href="http://bike.lingnan.ren" target="_blank">共享单车</a></li>
+		<li><a href="carShare.html" target="_blank">共享汽车</a></li>
+		<li><a href="sharedbed.html">共享陪护床</a></li>
+		<li><a href="scooter.html">共享滑板车</a></li>
+		<li><a href="Ebike.html">共享助力车</a></li>
+		<li role="separator" class="divider"></li>
+		<li><a href="javascript:void(0);" class="menu-group">餐饮</a></li>
+		<li><a href="http://tianmei.lingnan.ren/" target="_blank">天美点餐</a></li>
+		<li role="separator" class="divider"></li>
+		<li><a class="menu-group" href="javascript:void(0);">房产</a></li>
+		<li><a href="http://hx.lingnan.ren/" target="_blank">汇享公寓</a></li>
+		<li role="separator" class="divider"></li>
+		</ul>
+		</li>
+		<li class="dropdown">
+		<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">定制开发 <span class="caret"></span></a>
+		<ul class="dropdown-menu">
+		<li><a href="http://wechat.lingnan.ren/" target="_blank">微信开发</a></li>
+		<li role="separator" class="divider"></li>
+		<li><a href="UI-s.html">APP开发</a></li>
+		<li role="separator" class="divider"></li>
+		<li><a href="proDevelop.html">小程序开发</a></li>
+		<li role="separator" class="divider"></li>
+		</ul>
+		</li>
+		<li><a href="aboutUs.html">关于我们</a></li>
+		</ul>
+		<ul class="nav navbar-nav navbar-right">
+			<li><a href="">电话：400-1047-147 </a></li>
+			<li>
+				<a href="_top" class="pull-left" style="padding-left: 0; padding-right: 0; color: #00D117;">中文</a>
+				<a href="" class="pull-left" style="padding-left: 0; padding-right: 0;">&nbsp;|&nbsp;</a>
+				<a href="scooterE.html" class="pull-left" style="padding-left: 0; padding-right: 0; color: #ccc;">EN</a>
+			</li>
+		</ul>
+		</div>
+		</div>
+		</nav> -->
+
+<!-- 顶部 -->
+		<nav class="navbar navbar-default navbar-fixed-top">
+		  <div class="container wid-72">
+						<!-- Brand and toggle get grouped for better mobile display -->
+		    <div class="navbar-header">
+		      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#mynav" aria-expanded="false">
+										<span class="sr-only"></span>
+										<span class="icon-bar"></span>
+										<span class="icon-bar"></span>
+										<span class="icon-bar"></span>
+		      </button>
+		      <a class="navbar-brand" href="index.html" tppabs="http://yuxiit.lingnan.ren/index.html"><img class="img-responsive" src="img/yuxiupdata/logo.png" tppabs="http://yuxiit.lingnan.ren/img/yuxiupdata/logo.png"><span>万物互联 智启未来</span></a>
+		    </div>
+		    <!-- Collect the nav links, forms, and other content for toggling -->
+		    <div class="collapse navbar-collapse" id="mynav">
+		      <ul class="nav navbar-nav navbar-right">
+		        <li class="hidden-xs hidden-sm hidden-md"><a href="index.html" tppabs="http://yuxiit.lingnan.ren/index.html">首页</a></li>
+		        <!-- <span class="sr-only">(current)</span> -->
+		        <li class="dropdown">
+		        		<a data-toggle="dropdown" role="button">共享解决方案<span class="caret"></span></a>
+													<div class="dropdown-menu">
+															<div class="pull-left col-xs-8 col-sm-6">
+																	<img class="img-responsive" src="img/yuxiupdata/mune-1.png" tppabs="http://yuxiit.lingnan.ren/img/yuxiupdata/mune-1.png" alt="共享单车" style="display: block;">
+																	<img class="img-responsive" src="img/yuxiupdata/mune-2.png" tppabs="http://yuxiit.lingnan.ren/img/yuxiupdata/mune-2.png" alt="景区共享电动车">
+																	<img class="img-responsive" src="img/yuxiupdata/mune-3.png" tppabs="http://yuxiit.lingnan.ren/img/yuxiupdata/mune-3.png" alt="共享滑板车">
+																	<img class="img-responsive" src="img/yuxiupdata/mune-4.png" tppabs="http://yuxiit.lingnan.ren/img/yuxiupdata/mune-4.png" alt="共享陪护床">
+																	<img class="img-responsive" src="img/yuxiupdata/mune-5.png" tppabs="http://yuxiit.lingnan.ren/img/yuxiupdata/mune-5.png" alt="共享电动车">
+																	<img class="img-responsive" src="img/yuxiupdata/mune-6.png" tppabs="http://yuxiit.lingnan.ren/img/yuxiupdata/mune-6.png" alt="共享充电宝">
+															</div>
+															<ul class="pull-right col-xs-4 col-sm-6">
+																	<li><a href="javascript:if(confirm('http://bike.lingnan.ren/  \n\n���ļ��޷��� Teleport Ultra ����, ��Ϊ ����һ�����·���ⲿ������Ϊ������lingnan.ren  \n\n�����ڷ�lingnan.ren'))window.location='http://bike.yuxiit.com/'" tppabs="http://bike.yuxiit.com/" target="_blank">共享单车<p>一种新型环保共享经济，最大化的利用了公共道路通过率</p></a></li>
+																	<li><a href="carShare.html" tppabs="http://yuxiit.lingnan.ren/carShare.html" target="_blank">景区共享电动车<p>有助于缓解交通堵塞，以及公路的磨损，减少空气污染，降低对能量的依赖性</p></a></li>
+																	<li><a href="scooter.html" tppabs="http://yuxiit.lingnan.ren/scooter.html">共享滑板车<p>新的共享出行方式，轻便省力</p></a></li>
+																	<li><a href="sharedbed.html" tppabs="http://yuxiit.lingnan.ren/sharedbed.html">共享陪护床<p>立足医院民生需求而诞生，解决医患家属的休息问题</p></a></li>
+																	<li><a href="Ebike.html" tppabs="http://yuxiit.lingnan.ren/Ebike.html">共享电动车<p>通过扫码开锁，循环共享</p></a></li>
+																	<li><a href="sharabank.html" tppabs="http://yuxiit.lingnan.ren/sharabank.html">共享充电宝<p>企业提供的充电租赁设备，用户扫码取出后即可使用，用完后就近归还</p></a></li>
+															</ul>
+													</div>
+		        </li>
+		        <li class="dropdown">
+		        		<a data-toggle="dropdown" role="button">行业解决方案 <span class="caret"></span></a>
+	          	<div class="dropdown-menu">
+															<div class="pull-left col-xs-8 col-sm-6">
+																	<img class="img-responsive" src="img/yuxiupdata/mune-7.png" tppabs="http://yuxiit.lingnan.ren/img/yuxiupdata/mune-7.png" alt="智慧餐饮" style="display: block;">
+																	<img class="img-responsive" src="img/yuxiupdata/mune-8.png" tppabs="http://yuxiit.lingnan.ren/img/yuxiupdata/mune-8.png" alt="智慧公寓">
+																	<img class="img-responsive" src="img/yuxiupdata/mune-12.png" tppabs="http://yuxiit.lingnan.ren/img/yuxiupdata/mune-12.png" alt="智能电动车">
+															</div>
+															<ul class="pull-right col-xs-4 col-sm-6">
+																	<li><a class="menu-group" href="javascript:if(confirm('http://tianmei.lingnan.ren/  \n\n���ļ��޷��� Teleport Ultra ����, ��Ϊ ����һ�����·���ⲿ������Ϊ������ʼlingnan.ren \n\n�����ڷ����lingnan.renwindow.location='http://tianmei.yuxiit.com/'" tppabs="http://tianmei.yuxiit.com/" target="_blank">智慧餐饮<p>基于物联网和云计算技术为餐饮店量身打造的智能管理系统</p></a></li>
+																	<li><a href="javascript:if(confirm('http://hx.lingnan.ren/  \n\n���ļ��޷��� Teleport Ultra ����, ��Ϊ ����һ�����·���ⲿ������Ϊ�����lingnan.ren�  \n\n����lingnan.ren��?'))window.location='http://hx.yuxiit.com/'" tppabs="http://hx.yuxiit.com/" target="_blank">智慧公寓<p>集多种设备操控,场景定制,产品于一体,让顾客在公寓体验到更舒适,更便捷,更个性化的服务</p></a></li>
+																	<li><a href="Internet_Things_ElectCar.html" tppabs="http://yuxiit.lingnan.ren/Internet_Things_ElectCar.html">智能电动车<p>打造智能电动车时代!方便用户的出行,让骑车出行便捷</p></a></li>
+															</ul>
+													</div>
+		        </li>
+		        <li class="dropdown">
+		        				<a data-toggle="dropdown" role="button">软件应用开发<span class="caret"></span></a>
+					          <div class="dropdown-menu">
+															<div class="pull-left col-xs-8 col-sm-6">
+																	<img class="img-responsive" src="img/yuxiupdata/mune-9.png" tppabs="http://yuxiit.lingnan.ren/img/yuxiupdata/mune-9.png" alt="微信开发" style="display: block;">
+																	<img class="img-responsive" src="img/yuxiupdata/mune-10.png" tppabs="http://yuxiit.lingnan.ren/img/yuxiupdata/mune-10.png" alt="APP开发">
+																	<img class="img-responsive" src="img/yuxiupdata/mune-11.png" tppabs="http://yuxiit.lingnan.ren/img/yuxiupdata/mune-11.png" alt="小程序开发">
+															</div>
+															<ul class="pull-right col-xs-4 col-sm-6">
+																	<li><a href="javascript:if(confirm('http://wechat.lingnan.ren/  \n\n���ļ��޷��� Teleport Ultra ����, ��Ϊ ����һ�����·���ⲿ������Ϊ������lingnan.ren  \n\n�����ڷ��lingnan.ren))window.location='http://wechat.yuxiit.com/'" tppabs="http://wechat.yuxiit.com/" target="_blank">微信开发<p>定制开发可使您的微信公众平台更突出价值</p></a></li>
+					            <li><a href="UI-s.html" tppabs="http://yuxiit.lingnan.ren/UI-s.html">APP开发<p>小程序是一种新的开放能力,可以在微信内被便捷地获取和传播,同时具有出色的使用体验</p></a></li>
+					            <li><a href="proDevelop.html" tppabs="http://yuxiit.lingnan.ren/proDevelop.html">小程序开发<p>提供高效的APP开发、手机APP制作与APP管理等服务</p></a></li>
+															</ul>
+													</div>
+		        </li>
+		        <!-- <li><a href="Intelhardware.html">联网智能硬件</a></li> -->
+		        <li class="dropdown">
+	        		<a data-toggle="dropdown" role="button">物联网解决方案 <span class="caret"></span></a>
+				          <div class="dropdown-menu">
+														<div class="pull-left col-xs-8 col-sm-6">
+																<img class="img-responsive" src="img/yuxiupdata/mune-15.png" tppabs="http://yuxiit.lingnan.ren/img/yuxiupdata/mune-15.png" alt="物联网应用定制" style="display: block;">
+																<img class="img-responsive" src="img/yuxiupdata/mune-13.png" tppabs="http://yuxiit.lingnan.ren/img/yuxiupdata/mune-13.png" alt="物联网智能硬件">
+																<img class="img-responsive" src="img/yuxiupdata/mune-14.png" tppabs="http://yuxiit.lingnan.ren/img/yuxiupdata/mune-14.png" alt="物联网IOT云平台">
+														</div>
+														<ul class="pull-right col-xs-4 col-sm-6">
+																<li><a href="Internet_Things.html" tppabs="http://yuxiit.lingnan.ren/Internet_Things.html">物联网应用定制<p>规范化的开发流程，实现产品快速落地</p></a></li>
+				            <li><a href="Internet_Things_hardware.html" tppabs="http://yuxiit.lingnan.ren/Internet_Things_hardware.html">物联网智能硬件<p>支持定制，满足各类硬件场景需求</p></a></li>
+				            <li><a href="Internet_Things_IOT.html" tppabs="http://yuxiit.lingnan.ren/Internet_Things_IOT.html">物联网IOT云平台<p>灵活、可靠、安全，有效降低成本</p></a></li>
+														</ul>
+												</div>
+	        </li>
+		        <li class="hidden-xs hidden-sm hidden-md"><a href="javascript:if(confirm('http://yuxiit.lingnan.ren/aboutUs2019.html  \n\n���ļ��޷��� Teleport Ultra ����, ��Ϊ ����һ����������ʼ��ַ��Զ�����ӡ������������ʼ�lingnan.ren���, ���ļ������lingnan.ren�  \n\n�����ڷ������ϴ���?'))window.location='http://www.yuxiit.com/aboutUs2019.html'" tppabs="http://www.yuxiit.com/aboutUs2019.html">关于玉犀 </a></li>
+										<li><a>400-1047-147 </a></li>
+										<li class="hidden-xs hidden-sm"><a>18588789888</a></li>
+										<li class="hidden-xs  hidden-sm hidden-md hidden-lg"></li>
+		      </ul>
+		    </div><!-- /.navbar-collapse -->
+		  </div>
+		</nav>
+		<!-- 侧边栏 -->
+	<!-- 	<div class="server">
+		<ul class="list-unstyled">
+		<li id="erweima"><img src="img/right01.png" /></li>
+		<a target="_blank" href="http://wpa.qq.com/msgrd?v=3&uin=1829668236&site=qq&menu=yes">
+
+		<li id="toqq"><img src="img/right02.png" /></li>
+		</a>
+		<li id="totel"><img src="img/right03.png" /></li>
+		<a target="_blank" href="http://p.qiao.baidu.com//im/index?siteid=8233756&amp;ucid=7539873">
+		<li id="toqq"><img src="img/right04.png" /></li>
+		</a>
+		<li onclick="goTop();return false;"><img src="img/right05.png" /></li>
+		</ul>
+		<div class="list erlist none" style="display: none;">
+		<div class="sanjiao"></div>
+		<img src="img/cide.png" />
+		</div>
+		<div class="list tellist none" style="display: none;">
+		<div class="sanjiao"></div>
+		<span>400-1047-147 </span>
+		</div>
+		</div> -->
+
+
+		<!-- banner -->
+		<div class="container-fluid scootbanner">
+				<div class="scootbanner-info">
+				<div class="head">共享电动滑板车，重塑共享出行智能形象</div>
+				<div class="min-head">小巧省力时髦，真正解决最后一公里</div>
+				<div class="conter">拥有多个共享类项目成功案例，成熟优质的解决方案提供商——玉犀科技</div>
+				<a href="javascript:if(confirm('http://p.qiao.baidu.com//im/index?siteid=8233756&ucid=7539873  \n\n���ļ��޷��� Teleport Ultra ����, ��Ϊ ����һ�����·���ⲿ������Ϊ������ʼ��ַ�ĵ�ַ��  \n\n�����ڷ������ϴ���?'))window.location='http://p.qiao.baidu.com//im/index?siteid=8233756&ucid=7539873'" tppabs="http://p.qiao.baidu.com//im/index?siteid=8233756&ucid=7539873" target="_blank">立即咨询</a>
+				</div>
+		</div>
+
+
+		<!-- item1 -->
+		<div class="container">
+		<div class="row scoot-item1">
+					<div class="col-xs-6 col-md-3 scoot-item1-grop">
+							<div class="row">
+									<div class="col-md-4"><img src="img/scooter/icon_1.png" tppabs="http://yuxiit.lingnan.ren/img/scooter/icon_1.png" alt=""></div>
+									<div class="col-md-8"><span>轻松省力</span>站上去即可启动，电动助力，速度最高可达 25 km/h，更快更轻松</div>
+							</div>
+					</div>
+					<!--  -->
+					<div class="col-xs-6 col-md-3 scoot-item1-grop">
+							<div class="row">
+									<div class="col-md-4"><img src="img/scooter/icon_2.png" tppabs="http://yuxiit.lingnan.ren/img/scooter/icon_2.png" alt=""></div>
+									<div class="col-md-8"><span>小巧便携</span>和自行车相比，滑板车更小更轻便，占地面积小，停放更方便</div>
+							</div>
+					</div>
+					<!--  -->
+					<div class="col-xs-6 col-md-3 scoot-item1-grop">
+							<div class="row">
+									<div class="col-md-4"><img src="img/scooter/icon_3.png" tppabs="http://yuxiit.lingnan.ren/img/scooter/icon_3.png" alt=""></div>
+									<div class="col-md-8"><span>便宜又快</span>通勤的最后几公里，打车太贵，且高峰期打车难，拥堵的问题较多，滑板车相比成本更低</div>
+							</div>
+					</div>
+					<!--  -->
+					<div class="col-xs-6 col-md-3 scoot-item1-grop">
+							<div class="row">
+									<div class="col-md-4"><img src="img/scooter/icon_4.png" tppabs="http://yuxiit.lingnan.ren/img/scooter/icon_4.png" alt=""></div>
+									<div class="col-md-8"><span>年轻时髦</span>滑板车更代表一种年轻的生活态度，比自行车更酷</div>
+							</div>
+					</div>
+		</div>
+		</div>
+
+
+
+		<!-- 好行业、好项目、坐享收益  -->
+		<div style="background: #F8F8F8;" class="scooter-introduction">
+				<div class="container text-center" style="background: #F8F8F8;">
+						<div class="col-md-3 introductions">
+								<img class="center-block img-responsive" src="img/scooter/item1.png" tppabs="http://yuxiit.lingnan.ren/img/scooter/item1.png" alt="">
+								<h4>市场优势</h4>
+								<p>支持GPRS定位，随时监控滑板车位置，记录用户骑行轨迹</p>
+						</div>
+
+						<div class="col-md-3 introductions">
+								<img class="center-block img-responsive" src="img/scooter/item2.png" tppabs="http://yuxiit.lingnan.ren/img/scooter/item2.png" alt="">
+								<h4>模式优势</h4>
+								<p>GPRS远程开锁，蓝牙近距离开锁，满足多种场景开锁需求</p>
+						</div>
+
+						<div class="col-md-3 introductions">
+								<img class="center-block img-responsive" src="img/scooter/item3.png" tppabs="http://yuxiit.lingnan.ren/img/scooter/item3.png" alt="">
+								<h4>技术优势</h4>
+								<p>通通过电子围栏规范用户停放，降低维护成本</p>
+						</div>
+
+						<div class="col-md-3 introductions">
+								<img class="center-block img-responsive" src="img/scooter/item4.png" tppabs="http://yuxiit.lingnan.ren/img/scooter/item4.png" alt="">
+								<h4>运营优势</h4>
+								<p>支持多种第三方支付，常用的银联支付、微信支付、支付宝支付、PayPal等都有对接经验</p>
+						</div>
+				</div>
+		</div>
+
+
+
+		<!-- 提供一站式解决方案 -->
+		<div class="container text-center">
+				<div class="row oneStep">
+						<div class="row step-head">提供一站式解决方案 </div>
+						<div class="row step-min-head">APP+小程序+管理后台+智能锁+电动滑板车 </div>
+						<div class="step-tips"><span>APP</span></div>
+
+						<div class="col-md-4 step-group">
+								<img class="center-block img-responsive" src="img/scooter/1.png" tppabs="http://yuxiit.lingnan.ren/img/scooter/1.png" alt="">
+								<h4>扫码开锁，说走就走</h4>
+								<p>扫码开锁可以选择蓝牙，GPS、GPRS进行开锁，锁开之后踏上滑板车即可出发</p>
+						</div>
+
+						<div class="col-md-4 step-group">
+								<img class="center-block img-responsive" src="img/scooter/2.png" tppabs="http://yuxiit.lingnan.ren/img/scooter/2.png" alt="">
+								<h4>邀请好友，骑行免费</h4>
+								<p>把邀请码发送给好友，与好友共享免费骑行</p>
+						</div>
+
+						<div class="col-md-4 step-group">
+								<img class="center-block img-responsive" src="img/scooter/3.png" tppabs="http://yuxiit.lingnan.ren/img/scooter/3.png" alt="">
+								<h4>个人信息，清晰可查</h4>
+								<p>骑行记录/钱包管理等清晰简要，随时可以查询</p>
+						</div>
+				</div>
+		</div>
+
+
+
+		<!-- 管理后台 -->
+		<div style="background: #f8f8f8">
+				<div class="container text-center">
+				<div class="row oneStep">
+						<div class="step-tips"><span>管理后台</span></div>
+						<div class="step-group">
+								<img class="center-block img-responsive" src="img/scooter/ht1.png" tppabs="http://yuxiit.lingnan.ren/img/scooter/ht1.png" alt="">
+								<h4>数据总览，助力运营</h4>
+								<p>统计数据信息，查询每个数据来去记录</p>
+						</div>
+				</div>
+				</div>
+		</div>
+
+
+
+<!-- 滑板车 -->
+<div class="container text-center">
+	<div class="row oneStep">
+	<div class="step-tips"><span>滑板车</span></div>
+			<div class="step-group">
+					<img class="center-block img-responsive" src="img/scooter/hbc.png" tppabs="http://yuxiit.lingnan.ren/img/scooter/hbc.png" alt="">
+					<h4 style="margin-top: 40px;">防水防盗，支持定制</h4>
+					<p>共享滑板车防水能力强，并采用电机锁，骑行结束后自动锁住电机，防止雨后损坏或被用户占用</p>
+			</div>
+</div>
+</div>
+
+
+
+<!-- 行业优势 -->
+<div class="in-advantage" style="background: #f8f8f8;">
+		<div class="container">
+		<div class="row">
+			<div class="in-advantage-head text-center">行业优势</div>
+
+					<div class="col-sm-12 col-md-6 advant-gro">
+										<div class="col-xs-3" style="margin-left: 10px;"><img class="center-block img-responsive" src="img/scooter/advan1.png" tppabs="http://yuxiit.lingnan.ren/img/scooter/advan1.png" alt=""></div>
+										<div class="col-xs-7"><span>高效的需求分析</span>将想法快速落地成操作方案，呈现高效率高质量成果</div>
+										<div class="serial">1</div>
+					</div>
+					<!--  -->
+					<div class="col-sm-12 col-md-6 advant-gro">
+										<div class="col-xs-3" style="margin-left: 10px;"><img class="center-block img-responsive" src="img/scooter/advan2.png" tppabs="http://yuxiit.lingnan.ren/img/scooter/advan2.png" alt=""></div>
+										<div class="col-xs-7"><span>满意的视觉呈现</span>行业UI设计精英，助您达到满意的视觉效果</div>
+										<div class="serial">2</div>
+					</div>
+					<!--  -->
+					<div class="col-sm-12 col-md-6 advant-gro">
+										<div class="col-xs-3" style="margin-left: 10px;"><img class="center-block img-responsive" src="img/scooter/advan3.png" tppabs="http://yuxiit.lingnan.ren/img/scooter/advan3.png" alt=""></div>
+										<div class="col-xs-7"><span>实时的效果监控</span>专业项目经理负责制，全方位监控开发环节，确保准时交付</div>
+										<div class="serial">3</div>
+					</div>
+					<!--  -->
+					<div class="col-sm-12 col-md-6 advant-gro">
+										<div class="col-xs-3" style="margin-left: 10px;"><img class="center-block img-responsive" src="img/scooter/advan4.png" tppabs="http://yuxiit.lingnan.ren/img/scooter/advan4.png" alt=""></div>
+										<div class="col-xs-7"><span>省心的售后服务</span>交付协助项目上架，售后问题高效全面解决</div>
+										<div class="serial">4</div>
+					</div>
+
+		</div>
+		</div>
+	</div>
+
+
+
+	<!-- 为您创造价值，是我们坚定不移的宗旨 -->
+	<div class="container-fluild text-center industry">
+			<div class="row industry-head">为您创造价值，是我们坚定不移的宗旨 </div>
+				<a href="javascript:if(confirm('http://wpa.qq.com/msgrd?v=3&uin=1829668236&site=qq&menu=yes  \n\n���ļ��޷��� Teleport Ultra ����, ��Ϊ ����һ�����·���ⲿ������Ϊ������ʼ��ַ�ĵ�ַ��  \n\n�����ڷ������ϴ���?'))window.location='http://wpa.qq.com/msgrd?v=3&uin=1829668236&site=qq&menu=yes'" tppabs="http://wpa.qq.com/msgrd?v=3&uin=1829668236&site=qq&menu=yes" target="_blank">立即咨询</a>
+	</div>
+
+
+
+	<!--box3 新闻-->
+    <div class="container">
+        <div class="text-center">
+            <div class="blank50"></div>
+            <div class="cBlack f_42 line42 marginB10 wow fadeInDown animated" style="visibility: visible; animation-name: fadeInDown;"><!-- APP -->开发资讯</div>
+            <div class="cGray f_18 wow fadeInUp animated" style="visibility: visible; animation-name: fadeInUp;">NEWS</div>
+            <div class="blank20"></div>
+            <div class="blank20"></div>
+        </div>
+
+        <div class="col-md-4 firstPageBox3Li wow fadeInDown animated active" data-wow-delay="300ms" style="visibility: visible; animation-delay: 300ms; animation-name: fadeInDown;">
+            <div class="title f_22 cBlue text-center pointer" title="解决方案"></div>
+            <hr>
+            <div class="blank20"></div>
+            <ul></ul>
+            <div class="blank50"></div>
+        </div>
+
+        <div class="col-md-4 firstPageBox3Li wow fadeInDown animated active" data-wow-delay="500ms" style="visibility: visible; animation-delay: 500ms; animation-name: fadeInDown;">
+            <div class="title f_22 cBlue text-center pointer" title="开发知识"></div>
+            <hr>
+            <div class="blank20"></div>
+            <ul></ul>
+            <div class="blank50"></div>
+        </div>
+        
+        <div class="col-md-4 firstPageBox3Li wow fadeInDown animated active" data-wow-delay="700ms" style="visibility: visible; animation-delay: 700ms; animation-name: fadeInDown;">
+            <div class="title f_22 cBlue text-center pointer" title="行业动态"></div>
+            <hr>
+            <div class="blank20"></div>
+            <ul></ul>
+            <div class="blank50"></div>
+        </div>
+    </div>
+
+
+
+
+<!-- 联系我们 -->
+<div class="abouts abouts2" style="background: #f8f8f8;">
+			<div class="container text-center bedConter">
+						<div class="row bed-head"><img class="center-block" src="img/scooter/logo.png" tppabs="http://yuxiit.lingnan.ren/img/scooter/logo.png" alt=""></div>
+						<div class="row bed-body abouts-body">
+						<div class="col-md-3">
+						<img src="img/scooter/shouji.png" tppabs="http://yuxiit.lingnan.ren/img/scooter/shouji.png" alt="">手机：18588789888
+						</div>
+						<div class="col-md-3">
+						<img src="img/scooter/phone.png" tppabs="http://yuxiit.lingnan.ren/img/scooter/phone.png" alt="">电话：400-1047-147 
+						</div>
+						<div class="col-md-3">
+						<img src="img/scooter/youxiang.png" tppabs="http://yuxiit.lingnan.ren/img/scooter/youxiang.png" alt="">邮箱：yuxi@lingnan.ren
+						</div>
+						<div class="col-md-3">
+						<img src="img/scooter/qq.png" tppabs="http://yuxiit.lingnan.ren/img/scooter/qq.png" alt="">QQ：1829668236
+						</div>
+						</div>
+			</div>
+</div>
+
+
+
+	
+
+<!-- 底部 -->
+<div class="footer">
+<div class="container">
+		<div class="row">
+
+			<div class="col-xs-4 col-lg-2">
+					<h2>解决方案</h2>
+					<ul class="list-unstyled">
+            <li><a href="javascript:if(confirm('http://bike.lingnan.ren/  \n\n���ļ��޷��� Teleport Ultra ����, ��Ϊ ����һ�����·���ⲿ������Ϊ������lingnan.ren  \n\n�����ڷ�lingnan.ren'))window.location='http://bike.yuxiit.com/'" tppabs="http://bike.yuxiit.com/" target="_blank">共享单车</a></li>
+            <!-- <li><a href="">共享汽车</a></li> -->
+            <li><a href="scooter.html" tppabs="http://yuxiit.lingnan.ren/scooter.html">共享滑板车</a></li>
+            <li><a href="sharedbed.html" tppabs="http://yuxiit.lingnan.ren/sharedbed.html">共享陪护床</a></li>
+            <li><a href="Ebike.html" tppabs="http://yuxiit.lingnan.ren/Ebike.html">共享电动车</a></li>
+            <li><a href="sharabank.html" tppabs="http://yuxiit.lingnan.ren/sharabank.html">共享充电宝</a></li>
+          </ul>
+			</div>
+
+			<div class="col-xs-4 col-lg-2">
+					<h2>行业方案</h2>
+					<ul class="list-unstyled">
+						<li><a class="menu-group" href="javascript:if(confirm('http://tianmei.lingnan.ren/  \n\n���ļ��޷��� Teleport Ultra ����, ��Ϊ ����һ�����·���ⲿ������Ϊ������ʼlingnan.ren \n\n�����ڷ����lingnan.renwindow.location='http://tianmei.yuxiit.com/'" tppabs="http://tianmei.yuxiit.com/" target="_blank" title="智慧餐饮">智慧餐饮</a></li>
+						<li><a href="javascript:if(confirm('http://hx.lingnan.ren/  \n\n���ļ��޷��� Teleport Ultra ����, ��Ϊ ����һ�����·���ⲿ������Ϊ�����lingnan.ren�  \n\n����lingnan.ren��?'))window.location='http://hx.yuxiit.com/'" tppabs="http://hx.yuxiit.com/" target="_blank" title="智慧公寓">智慧公寓</a></li>
+						<li><a href="Internet_Things_ElectCar.html" tppabs="http://yuxiit.lingnan.ren/Internet_Things_ElectCar.html" target="_blank" title="智慧公寓">智能电动车</a></li>
+					</ul>
+			</div>
+
+			<div class="col-xs-4 col-lg-2">
+					<h2>软件开发</h2>
+					<ul class="list-unstyled">
+						<li><a href="javascript:if(confirm('http://wechat.lingnan.ren/  \n\n���ļ��޷��� Teleport Ultra ����, ��Ϊ ����һ�����·���ⲿ������Ϊ������lingnan.ren  \n\n�����ڷ��lingnan.ren))window.location='http://wechat.yuxiit.com/'" tppabs="http://wechat.yuxiit.com/" target="_blank">微信开发</a></li>
+						<li><a href="UI-s.html" tppabs="http://yuxiit.lingnan.ren/UI-s.html">APP开发</a></li>
+						<li><a href="proDevelop.html" tppabs="http://yuxiit.lingnan.ren/proDevelop.html">小程序开发</a></li>
+					</ul>
+			</div>
+
+			<div class="col-xs-4 col-lg-2">
+					<h2>智能硬件</h2>
+					<ul class="list-unstyled">
+								<li><a href="Internet_Things.html" tppabs="http://yuxiit.lingnan.ren/Internet_Things.html" title="车锁">物联网应用定制</a></li>
+								<li><a href="Internet_Things_hardware.html" tppabs="http://yuxiit.lingnan.ren/Internet_Things_hardware.html" title="车锁">物联网智能硬件</a></li>
+								<li><a href="Internet_Things_IOT.html" tppabs="http://yuxiit.lingnan.ren/Internet_Things_IOT.html" title="联网控制器">物联网IOT云平台</a></li>
+					</ul>
+			</div>
+
+			<div class="col-xs-8 col-lg-3 col-lg-offset-1">
+					<h2>联系我们</h2>
+					<ul class="list-unstyled">
+						<li><span>客服电话：400-1047-147 </span></li>
+						<li><span>商务合作：18588789888</span></li>
+						<li><span>反馈建议：yuxiit@lingnan.ren</span></li>
+						<!-- <li><span>工作时间：周一到周五09:00-18:00</span></li> -->
+					</ul>
+			</div>
+
+		</div>
+</div>
+</div>
+<!--  -->
+<div style="background: #000; color: #fff;">
+		<MARQUEE>
+				<!-- Keywords: -->
+				<a href="index.htm" tppabs="http://yuxiit.lingnan.ren/" title="深圳APP开发" target="_blank" style="color: #fff;"><strong>共享APP开发-玉犀科技专注于共享陪护床，共享电动车，共享汽车，共享充电桩，共享家居电器，共享按摩椅，共享充电宝，共享滑板车等共享软件开发及物联网解决方案</strong></a>
+		</MARQUEE>
+</div>
+	<!--  -->
+	<div class="containe min-footer text-center">
+		<div class="row">
+			<div class="col-xs-6">Copyright © 2013-2015深圳市玉犀科技有限公司 <a href="javascript:if(confirm('http://www.miitbeian.gov.cn/  \n\n���ļ��޷��� Teleport Ultra ����, ��Ϊ ����һ�����·���ⲿ������Ϊ������ʼ��ַ�ĵ�ַ��  \n\n�����ڷ������ϴ���?'))window.location='http://www.miitbeian.gov.cn/'" tppabs="http://www.miitbeian.gov.cn/" target="_blank">粤ICP备14055703-1号</a></div>
+			<div class="col-xs-6">公司地址：深圳市龙华新区民治大道向南商业大厦503</div>
+		</div>
+	</div>
+
+
+
+
+	<script src="js/jquery-1.10.2.js" tppabs="http://yuxiit.lingnan.ren/js/jquery-1.10.2.js"></script>
+	<script src="js/bootstrap.min.js" tppabs="http://yuxiit.lingnan.ren/js/bootstrap.min.js"></script>
+	<script src="js/index.js" tppabs="http://yuxiit.lingnan.ren/js/index.js" type="text/javascript"></script>
+			<script src="js/news.js" tppabs="http://yuxiit.lingnan.ren/js/news.js" type="text/javascript"></script>
+	<script type="text/javascript">
+		var _bdhmProtocol = (("https:" == document.location.protocol) ? " https://" : " http://");
+		document.write(unescape("%3Cscript src='" + _bdhmProtocol + "hm.baidu.com/h.js%3F34439d222cbf169237b7b18841a6c8f0' type='text/javascript'%3E%3C/script%3E"))
+	</script>
+	<script>
+		$('.dropdown-menu ul li').hover(function(event) {
+					$(this).parent().prev('div.pull-left').children('img').eq($(this).index()).show().siblings().hide()
+				});
+	</script>
+</body>
+</html>
